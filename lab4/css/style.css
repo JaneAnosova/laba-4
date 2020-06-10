@@ -1,0 +1,80 @@
+
+#mainmenu {
+    background: black;
+    position: relative;
+    overflow: hidden;
+    margin: 30px -15px;
+}
+
+#mainmenu ul {
+    padding-inline-start: 0;
+    margin-bottom: 0;
+}
+#mainmenu ul li {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+#mainmenu ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+#mainmenu ul li a:hover {
+    background-color: red;
+}
+
+#content {
+}
+#content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.items {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.items img {
+    margin-bottom: 10px;
+}
+
+
+.items p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer {
+    background: black;
+    width: 40px;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+}
+
+/*Стили для страницы о компании*/
+#about p {
+    font-size: 16px;
+	text-align: justify;
+}
+/*Конец стилей для страницы о компании */
+
+/*Стили для страницы контакты*/
+#contacts p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/*Конец стилей для страницы контакты*/
